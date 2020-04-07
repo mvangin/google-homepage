@@ -1,0 +1,32 @@
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#navleft {
+    float: left;
+    padding: 15px 0px;
+}
+
+#navright {
+    float: right;
+    padding:15px 0px;
+}
+
+#google {
+   clear: both;
+   position:absolute;
+   top: 0; bottom: 0; left: 0; right: 0;
+   margin: auto auto;
+   height: 20px; /*requires explicit height*/
+   width: 50px;
+ }
+
+
+.item {
+ padding:0px 10px;   
+}
+
+
