@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link href="styles/styles.css" rel="stylesheet">
     <title> Google </title>
 </head>
+
 <body>
-<nav>
-    <ul class="menu"></ul>
-        <li class="left"> <a href="#"> Store</a> </li>
-        <li class="left"> <a href="#"> About </a></li>
-        <li class="right"> <a href="#"> Sign In</a> </li>
-        <li class="right"> <a href="#">Images</a> </li>
-        <li class="right"> <a href="#">Gmail </a></li> 
-    </ul>
-</nav>
+    <nav>
+        <ul class="menu">
+        <li class="leftnav"> <a href="#"> Store</a> </li>
+        <li class="leftnav"> <a href="#"> About </a></li>
+        <li class="rightnav"> <a class="sign-in" href="#"> Sign In</a> </li>
+        <li class="rightnav"><a href="#"> <img src="images/google-apps.png" class="grid-img"></a></li> 
+        <li class="rightnav"> <a href="#">Images</a> </li>
+        <li class="rightnav"> <a href="#">Gmail </a></li>
+        </ul>
+    </nav>
 
-    <div id="google">
-        <img src="images/google-logo.png">
+    <div class="content">
+
+        <div class="logo-container">
+            <img src="images/google-logo.png" class="logo">
+        </div>
+    
+
+        <div class="searchbar-container">
+            <input type="search" class="googlesearch">
+            <button class="buttonsearch" type="submit"> Google Search </button>
+            <button class="buttonsearch" type="submit"> I'm Feeling Lucky </button>
+        </div>
     </div>
 
-    <div id="input">
-        <input type="search">
-        <br>
-        <button id="googlesearch"> Google Search </button>
-        <button id="lucky" > I'm Feeling Lucky </button>
-    </div>
-
+    <footer>
+        <ul class="footernav">
+            <li class="footerlinks leftfooter"> <a href="#">Advertising </a></li>
+            <li class="footerlinks leftfooter"> <a href="#">Business </a></li>
+            <li class="footerlinks leftfooter"> <a href="#">How Search Works </a> </li>
+            <li class="footerlinks rightfooter"> <a href="#">Settings </a></li>
+            <li class="footerlinks rightfooter"><a href="#"> Terms </a></li>
+            <li class="footerlinks rightfooter"> <a href="#">Privacy </a></li>
+        </ul>
+    </footer>
 </body>
-</html>
 
+</html>
